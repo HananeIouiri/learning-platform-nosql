@@ -58,7 +58,7 @@ Démarrer MongoDB et Redis
 
 #Assurez-vous que MongoDB et Redis sont en cours d'exécution sur votre machine locale, ou utilisez les services cloud correspondants. Vous pouvez démarrer MongoDB avec la commande suivante :
 mongod
-![alt text](image.png)
+![image](image.png)
 #Pour Redis, assurez-vous que le serveur Redis est également démarré.
 
 5. **Lancer le projet**
