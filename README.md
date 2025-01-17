@@ -23,13 +23,14 @@ Ce projet est une plateforme d'apprentissage en ligne qui utilise MongoDB, Redis
 Étape 3 : Nommez le dépôt (par exemple learning-platform-nosql), choisissez de le rendre public et ne cochez pas la case pour initialiser avec un README (puisque vous allez le faire vous-même).
 Étape 4 : Cliquez sur "Create repository".
 
-   ![image](screenshoots\image1.png)
+  ![image](screenshots/img1.png)
 
 2. **Configuration de votre environnement local :**
    ```bash
    # Clonez mon dépôt template 
    git clone https://github.com/pr-daaif/learning-platform-template
-   ![image](screenshoots\image2.png)
+   
+  ![image](screenshots/img2.png)
    
    # Renommez le dépôt origin
    cd learning-platform-template
@@ -41,12 +42,12 @@ Ce projet est une plateforme d'apprentissage en ligne qui utilise MongoDB, Redis
    # Poussez le code vers votre dépôt
    git push -u origin main
    
-   ![image](screenshoots\image3.png)
+  ![image](screenshots/img3.png)
 
 3. **Installation des dépendances :**
    ```bash
    npm install
-  ![image](screenshoots\image4.png)
+  ![image](screenshots/img4.png)
 4. **Configurer les variables d'environnement**
 
 #Créez un fichier .env à la racine du projet et ajoutez les configurations suivantes :
@@ -57,8 +58,9 @@ REDIS_PORT=6379
 Démarrer MongoDB et Redis
 
 #Assurez-vous que MongoDB et Redis sont en cours d'exécution sur votre machine locale, ou utilisez les services cloud correspondants. Vous pouvez démarrer MongoDB avec la commande suivante :
+
 mongod
-![image](image.png)
+
 #Pour Redis, assurez-vous que le serveur Redis est également démarré.
 
 5. **Lancer le projet**
